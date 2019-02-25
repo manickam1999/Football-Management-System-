@@ -1,0 +1,878 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SaintsAss2
+</name>
+</assembly>
+<members>
+<member name="T:SaintsAss2.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:SaintsAss2.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:SaintsAss2.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:SaintsAss2.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:SaintsAss2.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:SaintsAss2.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:SaintsAss2.Add._Add">
+<summary>
+Add control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamValidationSummary">
+<summary>
+TeamValidationSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamNameLabel">
+<summary>
+TeamNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamNameTextBox">
+<summary>
+TeamNameTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamNameRequiredFieldValidator">
+<summary>
+TeamNameRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamCountryLabel">
+<summary>
+TeamCountryLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._CountryDropDownList">
+<summary>
+CountryDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamCountryRequiredFieldValidator0">
+<summary>
+TeamCountryRequiredFieldValidator0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._SubmitButton">
+<summary>
+SubmitButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._MessageLabel">
+<summary>
+MessageLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamAddSqlDataSource">
+<summary>
+TeamAddSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerValidationSummary">
+<summary>
+PlayerValidationSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerNameLabel">
+<summary>
+PlayerNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerNameTextBox">
+<summary>
+PlayerNameTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerNameRequiredFieldValidator0">
+<summary>
+PlayerNameRequiredFieldValidator0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerOriginLabel">
+<summary>
+PlayerOriginLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._NationalityDropDownList">
+<summary>
+NationalityDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._NationalityRequiredFieldValidator">
+<summary>
+NationalityRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerTeamLabel">
+<summary>
+PlayerTeamLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamNameDropDownList">
+<summary>
+TeamNameDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerTeamRequiredFieldValidator">
+<summary>
+PlayerTeamRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerPositionLabel">
+<summary>
+PlayerPositionLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PositionDropDownList">
+<summary>
+PositionDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PositionRequiredFieldValidator">
+<summary>
+PositionRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerSubmitButton">
+<summary>
+PlayerSubmitButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerMessageLabel">
+<summary>
+PlayerMessageLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._TeamNameSqlDataSource">
+<summary>
+TeamNameSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Add._PlayerPositionSqlDataSource">
+<summary>
+PlayerPositionSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._TeamValidationSummary">
+<summary>
+TeamValidationSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._TeamNameLabel">
+<summary>
+TeamNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._TeamDropDownList">
+<summary>
+TeamDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._TeamNameRequiredFieldValidator">
+<summary>
+TeamNameRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._DeleteButton">
+<summary>
+DeleteButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._TeamMessageLabel">
+<summary>
+TeamMessageLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._TeamNameSqlDataSource">
+<summary>
+TeamNameSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerValidationSummary">
+<summary>
+PlayerValidationSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerTeamNameLabel">
+<summary>
+PlayerTeamNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerTeamDropDownList">
+<summary>
+PlayerTeamDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerTeamRequiredFieldValidator">
+<summary>
+PlayerTeamRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerNameLabel">
+<summary>
+PlayerNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerNameDropDownList">
+<summary>
+PlayerNameDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerRequiredFieldValidator1">
+<summary>
+PlayerRequiredFieldValidator1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerDeleteButton">
+<summary>
+PlayerDeleteButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerMessageLabel">
+<summary>
+PlayerMessageLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerTeamNameSqlDataSource">
+<summary>
+PlayerTeamNameSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Delete._PlayerNameSqlDataSource">
+<summary>
+PlayerNameSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerValidationSummary">
+<summary>
+PlayerValidationSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameLabel">
+<summary>
+TeamNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameDropDownList">
+<summary>
+TeamNameDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameRequiredFieldValidator0">
+<summary>
+TeamNameRequiredFieldValidator0 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamIDLabel">
+<summary>
+TeamIDLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamIDTextBox">
+<summary>
+TeamIDTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameEditLabel">
+<summary>
+TeamNameEditLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameTextBox">
+<summary>
+TeamNameTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameRequiredFieldValidator">
+<summary>
+TeamNameRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamCountryLabel">
+<summary>
+TeamCountryLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._CountryDropDownList">
+<summary>
+CountryDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._UpdateButton">
+<summary>
+UpdateButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamUpdateLabel">
+<summary>
+TeamUpdateLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamValidationSummary">
+<summary>
+TeamValidationSummary control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerTeamNameLabel">
+<summary>
+PlayerTeamNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerTeamNameDropDownList">
+<summary>
+PlayerTeamNameDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerTeamRequiredFieldValidator">
+<summary>
+PlayerTeamRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNameLabel">
+<summary>
+PlayerNameLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNameDropDownList">
+<summary>
+PlayerNameDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNameRequiredFieldValidator">
+<summary>
+PlayerNameRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerIDLabel">
+<summary>
+PlayerIDLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerIDTextBox">
+<summary>
+PlayerIDTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNameEditLabel">
+<summary>
+PlayerNameEditLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNameTextBox">
+<summary>
+PlayerNameTextBox control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNamaRequiredFieldValidator">
+<summary>
+PlayerNamaRequiredFieldValidator control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerTeamEditLabel">
+<summary>
+PlayerTeamEditLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayersTeamEditDropDownList">
+<summary>
+PlayersTeamEditDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PositionLabel">
+<summary>
+PositionLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PositionDropDownList">
+<summary>
+PositionDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerOriginLabel">
+<summary>
+PlayerOriginLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerCountryDropDownList">
+<summary>
+PlayerCountryDropDownList control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerUpdateButton">
+<summary>
+PlayerUpdateButton control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerUpdateLabel">
+<summary>
+PlayerUpdateLabel control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._TeamNameSqlDataSource">
+<summary>
+TeamNameSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._CountrySqlDataSource">
+<summary>
+CountrySqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PlayerNameSqlDataSource">
+<summary>
+PlayerNameSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Edit._PositionSqlDataSource">
+<summary>
+PositionSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Main._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Main._SummarySqlDataSource">
+<summary>
+SummarySqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.Main._SummaryGridView">
+<summary>
+SummaryGridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.View._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.View._TeamGridView">
+<summary>
+TeamGridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.View._TeamSqlDataSource">
+<summary>
+TeamSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.View._PlayerGridView">
+<summary>
+PlayerGridView control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:SaintsAss2.View._PlayerSqlDataSource">
+<summary>
+PlayerSqlDataSource control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>
